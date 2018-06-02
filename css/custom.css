@@ -1,0 +1,131 @@
+/* your styles go here */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.connect-me{
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  z-index: 10;
+  bottom: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.connect-me ul li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.connect-me ul li a{
+  color: #fff;
+}
+.connect-me ul li a:hover{
+  color: #179684;
+}
+@media screen and (max-width: 768px){
+  .connect-me{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    bottom: 20%;
+  }
+}
+.about-grid-icon{
+  padding: 25px 15px;
+  color: #293347;
+  text-align: center;
+}
+.about-grid-title{
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px 0 5px;
+  text-align: center;
+}
+.about-grid-text{
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 20px;
+  line-height: 2;
+  text-align: center;
+}
+.about-grid-section-title{
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 0;
+  text-align: center;
+  color: #8C43FF !important;
+  font-weight: 500;
+}
+.about-grid-section-text{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 0 30px;
+}
+ul.about-grid-section-list{
+  padding-left: 0;
+}
+.about-grid-section-list li{
+  list-style: none;
+  text-align: center;
+  padding: 5px 0;
+}
+.about-grid{
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: -150px 0px 0;
+}
+.about-intro{
+  padding: 80px 20px 180px;
+  text-align: center;
+  line-height: 2;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.footer{
+  padding: 40px 0;
+  background: #06BC9B;
+}
+.footer-text{
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-email{
+  background: #293347;
+  margin-top: -130px;
+  border-radius: 10px;
+}
+.contact-email-text{
+  padding: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-email-text a{
+  color: #fff;
+}
+.contact-email-text a:hover{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.portfolio{
+  background: #1bb99b;
+  padding-bottom: 180px;
+}
+.portfolio-title{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+  .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+}
